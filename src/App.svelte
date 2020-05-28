@@ -1,4 +1,5 @@
 <script>
+	import TrainingDay from './components/TrainingDay.svelte'
 	export let title;
 </script>
 
@@ -8,7 +9,7 @@
 
 <main>
 	<h1>{title}</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<TrainingDay />	
 </main>
 
 <style>
@@ -21,11 +22,12 @@
 	}
 
 	h1 {
-		color: #ff3e00;
+		color: purple;
 		text-transform: uppercase;
 		text-align: center;
 		font-size: 4em;
-		font-weight: 100;
+		font-weight: 600;
+		/* font-family: monospace; */
 	}
 
 	@media (min-width: 640px) {
