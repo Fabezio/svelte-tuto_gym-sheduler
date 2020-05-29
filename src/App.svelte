@@ -1,14 +1,14 @@
 <script>
 	import TrainingDay from './components/TrainingDay.svelte'
-	export let title;
+	export let name;
 </script>
 
 <svelte:head>
-	<title>{title}</title>
+	<title>{name}</title>
 </svelte:head>
 
 <main>
-	<h1>{title}</h1>
+	<h1>{name}</h1>
 	<TrainingDay />	
 </main>
 
